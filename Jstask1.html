@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+ <html lang="en"> 
+    <head> 
+        <meta charset="UTF-8">
+        <title>JS Task Output</title>
+    </head> 
+
+ <body> 
+    <h1>Check the Console for Results</h1> 
+    <p>Press <b>F12</b> and click the <b>Console</b> tab to see Task outputs.</p> 
+    <script> 
+    // TASK 1 
+    let name = "Manikanth"; 
+    let age = 23; 
+    let city = "Bangalore"; 
+    console.log("--- Task 1 ---"); 
+    console.log("My name is " + name + "."); 
+    console.log("I am " + age + " years old."); 
+    console.log("I am from " + city + "."); 
+    // TASK 2//
+    let userName = prompt("Enter your name:"); 
+    alert("Welcome " + userName + "!"); 
+    let wantToLearn = confirm("Do you want to learn JavaScript?"); 
+    if (wantToLearn) {
+    console.log("Task 2: Great Choice!"); } 
+    else { 
+    console.log("Task 2: No Problem!"); } 
+    // TASK 3 
+    let myNum = 100; 
+    console.log("--- Task 3 ---"); 
+    console.log("Value: " + myNum + " | Type: " + typeof myNum); 
+    // TASK 4 
+    let colors = ["Red", "Green", "Blue", "Yellow", "Pink", "Black"]; 
+    console.log("--- Task 4 ---"); 
+    console.log("First color: " + colors[0]); 
+    console.log("Last color: " + colors[colors.length - 1]); 
+    // TASK 5 
+    let subjects = ["Math", "Science", "History", "English", "Arts"]; 
+    let userIdx = prompt("Enter an index (0 to 4):"); 
+    console.log("--- Task 5 ---"); 
+    console.log("Subject: " + subjects[0]); 
+    console.log("Subject: " + subjects[4]); 
+    // TASK 6
+    let student = { name: "uday", age: 20, course: "CS", skills: ["JS", "Python", "HTML"] }; 
+    console.log("--- Task 6 ---"); 
+    console.log("Student: " + student.name + " | Skill: " + student.skills[1]); 
+    // TASK 7
+    let product = { name: "Laptop", price: 45000, inStock: true }; 
+    console.log("--- Task 7 ---"); 
+    console.log("Product: " + product.name + " | Available: " + (product.inStock ? "Yes" : "No")); 
+    // TASK 8 
+    let fruits = { tropical: ["mango"], berries: ["blueberry"], citrus: ["lemon"] }; 
+    console.log("--- Task 8 ---"); 
+    console.log("Berry: " + fruits.berries[0]); 
+    console.log("Total Categories: " + Object.keys(fruits).length); 
+    </script> 
+ </body>
+</html>
